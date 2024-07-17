@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.apache.skywalking</groupId>
+        <artifactId>optional-plugins</artifactId>
+        <version>9.2.0</version>
+    </parent>
+
+    <artifactId>dameng-8.x-plugin</artifactId>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.dameng</groupId>
+            <artifactId>Dm7JdbcDriver17</artifactId>
+            <version>7.6.0.165</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.dameng</groupId>
+            <artifactId>DmDialect-for-hibernate5.3</artifactId>
+            <version>7.6.0.165</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-jdbc-commons</artifactId>
+            <version>9.2.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>
